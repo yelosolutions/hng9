@@ -1,18 +1,11 @@
-## Task Description
-
-- Setup a server (Hosted)
-- Create an **(GET)** api endoint that returns the following  json response:
-    
-     { "**slackUsername**": String, "**backend**": Boolean, "**age**": Integer, "**bio**": String }
-    
-    - SlackUsername should be a **string** datatype and your slack username
-    - Backend should be a **boolean** datatype
-    - Age should be an  **integer** datatype
-    - Bio(description about yourself) should be a **string** datatype
-- Push to **GitHub**
-
-**Sample Input:** does not apply
-****None
-
-**Sample Response Format**
-{ "**slackUsername**": String, "**backend**": Boolean, "**age**": Integer, "**bio**": String }
+## How to use the script 
+* Install fastapi
+* Import class FirstAPI
+* Initialize an instance of FirstAPI
+* Define a json_response method 
+* Pass in the data required as class variables
+* Define data to be returned
+* Finally run the python script
+```
+./api.py
+```  
